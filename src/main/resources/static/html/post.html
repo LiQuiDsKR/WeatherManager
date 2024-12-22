@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글 상세</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/post.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <button class="back-btn" onclick="window.history.back()">뒤로가기</button>
+        <h1>날씨 대시보드</h1>
+        <div class="menu">
+            <button class="menu-btn">☰ 메뉴</button>
+            <div class="dropdown">
+                <a href="/html/board.html">게시판</a>
+                <a href="/html/healthcare.html">피부 건강</a>
+                <a href="/html/healthfood.html">건강식품</a>
+                <a href="/html/suggest.html">건의사항</a>
+            </div>
+        </div>
+    </header>
+    <main class="post-content">
+        <section id="coordinate-section">
+            <div id="post-details">
+                <h2 id="post-title">게시글 제목이 여기에 표시됩니다.</h2>
+                <p id="post-author">작성자: <span id="author-name">익명</span></p>
+                <p id="post-content">게시글 내용이 여기에 표시됩니다.</p>
+                <span id="post-views" class="views">조회수: 0</span>
+                <button id="like-btn" class="likes">❤️ 0</button>
+            </div>
+            <h2 id="coordinate-title">코디 정보</h2>
+            <p id="coordinate-description"></p>
+            <ul id="coordinate-items">
+                <!-- 코디 항목이 동적으로 추가됩니다 -->
+            </ul>
+        </section>
+
+        <section id="comments-section">
+            <h2>댓글</h2>
+            <ul id="comments-list">
+                <!-- 댓글 목록이 동적으로 추가됩니다 -->
+            </ul>
+            <div id="comment-form">
+                <input type="text" id="comment-author" placeholder="작성자" />
+                <textarea id="comment-content" placeholder="댓글을 입력하세요"></textarea>
+                <button id="submit-comment">댓글 작성</button>
+            </div>
+        </section>
+
+
+    </main>
+</div>
+<script src="../js/post.js"></script>
+<script src="../js/menu.js"></script>
+</body>
+</html>

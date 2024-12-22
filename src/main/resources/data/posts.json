@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "authorNickname": "패션마스터",
+    "title": "겨울 코디 추천",
+    "content": "이번 겨울에는 따뜻하면서도 스타일리시한 코디를 해보세요! 추천 코디를 공유합니다.",
+    "coordinate": {
+      "title": "겨울철 따뜻한 코디",
+      "description": "추운 겨울 날씨에 어울리는 따뜻하고 스타일리시한 코디를 추천합니다.",
+      "items": [
+        {
+          "name": "울 코트",
+          "type": "아우터",
+          "description": "고급스러운 울 소재로 제작된 코트로, 추운 날씨에 따뜻함과 멋을 동시에 제공합니다."
+        },
+        {
+          "name": "니트 스웨터",
+          "type": "상의",
+          "description": "부드럽고 따뜻한 니트 소재로, 다양한 색상으로 스타일링이 가능합니다."
+        },
+        {
+          "name": "기모 청바지",
+          "type": "하의",
+          "description": "안감에 기모 처리가 되어 있어 보온성을 높인 청바지입니다."
+        },
+        {
+          "name": "모직 머플러",
+          "type": "액세서리",
+          "description": "추운 겨울 목을 따뜻하게 감싸줄 모직 머플러입니다."
+        },
+        {
+          "name": "가죽 부츠",
+          "type": "신발",
+          "description": "미끄럼 방지 아웃솔이 적용된 따뜻한 가죽 부츠로 겨울철에 적합합니다."
+        }
+      ]
+    },
+    "likes": 11,
+    "views": 27,
+    "createdAt": "2024-12-22T10:30:00Z",
+    "comments": [
+      {
+        "id": 1,
+        "commentAuthorNickname": "코디좋아요",
+        "commentContent": "정말 예쁜 코디네요! 참고해서 입어볼게요.",
+        "likes": 1,
+        "commentCreatedAt": "2024-12-22T11:15:00Z"
+      },
+      {
+        "id": 2,
+        "commentAuthorNickname": "따뜻한겨울",
+        "commentContent": "울 코트와 기모 청바지 조합 정말 마음에 들어요.",
+        "likes": 0,
+        "commentCreatedAt": "2024-12-22T11:20:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "authorNickname": "스타일러버",
+    "title": "봄맞이 코디 추천",
+    "content": "따뜻한 봄날을 위한 산뜻한 코디를 소개합니다. 참고하세요!",
+    "coordinate": {
+      "title": "봄의 산뜻한 코디",
+      "description": "봄날의 따뜻한 햇살과 잘 어울리는 화사한 코디를 추천합니다.",
+      "items": [
+        {
+          "name": "트렌치코트",
+          "type": "아우터",
+          "description": "가벼운 소재의 트렌치코트로, 봄철에 잘 어울리는 아이템입니다."
+        },
+        {
+          "name": "셔츠 블라우스",
+          "type": "상의",
+          "description": "밝은 색상의 셔츠 블라우스로 경쾌한 분위기를 연출합니다."
+        },
+        {
+          "name": "슬랙스 팬츠",
+          "type": "하의",
+          "description": "깔끔한 핏의 슬랙스로 활동성과 스타일을 모두 갖췄습니다."
+        },
+        {
+          "name": "스니커즈",
+          "type": "신발",
+          "description": "캐주얼하면서도 스타일리시한 스니커즈입니다."
+        }
+      ]
+    },
+    "likes": 5,
+    "views": 9,
+    "createdAt": "2024-12-21T09:45:00Z",
+    "comments": [
+      {
+        "id": 1,
+        "commentAuthorNickname": "봄이좋아",
+        "commentContent": "트렌치코트 색상이 너무 궁금해요! 베이지색 추천인가요?",
+        "likes": 1,
+        "commentCreatedAt": "2024-12-21T10:00:00Z"
+      }
+    ]
+  }
+]

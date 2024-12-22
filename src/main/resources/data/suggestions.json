@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2024-12-22T14:30:00.123456",
+    "name": "사용자123",
+    "title" : "지역 추가",
+    "category": "기능 제안",
+    "suggestion": "지역 버튼 제주도도 추가해주세요",
+    "replied": false,
+    "replyContent": null,
+    "replyTime": null
+  },
+  {
+    "timestamp": "2024-12-22T14:00:00.654321",
+    "name": "피드백러",
+    "title": "경기도 영어이름 문제",
+    "category": "버그 제보",
+    "suggestion": "Gyeonggi 검색을 못해요",
+    "replied": true,
+    "replyContent": "OpenWeatherAPI 측에서 경기도 정보는 제공하지 않는 것 같습니다.",
+    "replyTime": "2024-12-23T10:00:00.123456"
+  }
+]

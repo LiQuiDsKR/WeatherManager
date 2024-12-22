@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날씨 대시보드</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="home-menu">
+            <button class="home-btn" onclick="navigateToHome()">홈</button>
+        </div>
+        <h1>날씨 대시보드</h1>
+        <div class="menu">
+            <button class="menu-btn">☰ 메뉴</button>
+            <div class="dropdown">
+                <a href="/html/board.html">게시판</a>
+                <a href="/html/healthcare.html">피부 건강</a>
+                <a href="/html/healthfood.html">건강식품</a>
+                <a href="/html/suggest.html">건의사항</a>
+            </div>
+        </div>
+    </header>
+    <div class="search-bar">
+        <form onsubmit="fetchWeather(); return false;">
+            <input type="text" name="city" placeholder="Enter location">
+            <button type="submit" class="search-btn">날씨 확인</button>
+        </form>
+    </div>
+
+    <div class="frequent-locations">
+        <h2>자주 검색하는 지역</h2>
+        <div class="locations">
+            <button onclick="setCity('서울')">서울</button>
+            <button onclick="setCity('부산')">부산</button>
+            <button onclick="setCity('인천')">인천</button>
+            <button onclick="setCity('대구')">대구</button>
+            <button onclick="setCity('광주')">광주</button>
+            <button onclick="setCity('대전')">대전</button>
+            <button onclick="setCity('울산')">울산</button>
+        </div>
+    </div>
+
+    <div class="weather-info">
+        <div class="info-row">
+            <div class="info-box blue">기온: <span id="temp">--</span></div>
+            <div class="info-box gray">체감 온도: <span id="feels-like">--</span></div>
+            <div class="info-box green">습도: <span id="humidity">--</span></div>
+        </div>
+        <div class="info-row">
+            <div class="info-box yellow">바람속도: <span id="wind-speed">--</span></div>
+            <div class="info-box red">바람 방향: <span id="wind-deg">--</span></div>
+            <div class="info-box black">구름량: <span id="clouds">--</span></div>
+        </div>
+        <div class="info-row">
+            <div class="info-box orange">날씨 설명: <span id="description">--</span></div>
+            <div class="info-box light-brown">일출: <span id="sunrise">--</span></div>
+            <div class="info-box light-brown">일몰: <span id="sunset">--</span></div>
+        </div>
+    </div>
+
+    <button class="recommendation-btn" onclick="navigateToRecommendation()">추천 옷차림 보러가기</button>
+</div>
+<script src="../js/main.js"></script>
+<script src="../js/menu.js"></script>
+</body>
+</html>

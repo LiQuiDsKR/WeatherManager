@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>건의사항 관리자 페이지</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <button class="back-btn" onclick="navigateToHome()">홈</button>
+        <h1>건의사항 관리</h1>
+        <div class="menu">
+            <button class="menu-btn">☰ 메뉴</button>
+            <div class="dropdown">
+                <a href="/html/board.html">게시판</a>
+                <a href="/html/healthcare.html">피부 건강</a>
+                <a href="/html/healthfood.html">건강식품</a>
+                <a href="/html/suggest.html">건의사항</a>
+            </div>
+        </div>
+    </header>
+    <div class="suggestion-list">
+        <!-- 동적으로 건의사항이 추가될 영역 -->
+    </div>
+
+    <!-- 모달 창 -->
+    <div id="reply-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>답변 작성</h2>
+            <textarea id="reply-content" placeholder="답변 내용을 입력하세요"></textarea>
+            <button class="submit-reply-btn" onclick="submitReply()">답변 제출</button>
+        </div>
+    </div>
+</div>
+<script src="../js/menu.js"></script>
+<script src="../js/admin.js"></script>
+</body>
+</html>

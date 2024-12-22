@@ -1,0 +1,163 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.avatar-section {
+  flex: 1;
+  max-width: 40%;
+}
+
+.avatar-box {
+  width: 100%;
+  padding-top: 75%;
+  background-color: #eaeaea;
+  border-radius: 8px;
+  position: relative;
+}
+
+.avatar-box img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+}
+
+.form-section {
+  flex: 2;
+  margin-left: 20px;
+}
+
+.form-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-section textarea {
+  height: 100px;
+}
+
+input {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.button-group {
+  gap: 10px;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+.upload-btn {
+  background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 10px;
+      transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #218838;
+}
+
+.add-item-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-item-btn:hover {
+    background-color: #218838;
+}
+
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.item-list .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.item-list .item input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.item-list .item .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-list .item .delete-btn:hover {
+    background-color: #c0392b;
+}
